@@ -22,10 +22,8 @@ namespace DTO.Org
         public string Cest { get; set; } = string.Empty;
         public string Color { get; set; } = string.Empty;
         public string Size { get; set; } = string.Empty;
-        public string Category1 { get; set; } = string.Empty;
-        public string Category2 { get; set; } = string.Empty;
-        public string Category3 { get; set; } = string.Empty;
-        public string Brand { get; set; } = string.Empty;
+        public int Category_id { get; set; }
+        public int Brand_id { get; set; }
         public decimal Weight_gross { get; set; }
         public decimal Weight_net { get; set; }
         public decimal Width { get; set; }

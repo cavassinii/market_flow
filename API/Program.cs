@@ -41,6 +41,18 @@ builder.Services.AddCors(options =>
     });
 });
 
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("CorsPolicy", policy =>
+//    {
+//        policy
+//            .AllowAnyOrigin()
+//            .AllowAnyMethod()
+//            .AllowAnyHeader();
+//    });
+//});
+
+
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {

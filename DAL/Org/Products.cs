@@ -80,10 +80,8 @@ namespace DAL.Org
                     Width,
                     Weight_net,
                     Weight_gross,
-                    Brand,
-                    Category3,
-                    Category2,
-                    Category1,
+                    Brand_id,
+                    Category_id,                    
                     Size,
                     Color,
                     Cest,
@@ -108,10 +106,8 @@ namespace DAL.Org
                     @Width,
                     @Weight_net,
                     @Weight_gross,
-                    @Brand,
-                    @Category3,
-                    @Category2,
-                    @Category1,
+                    @Brand_id,
+                    @Category_id,
                     @Size,
                     @Color,
                     @Cest,
@@ -137,10 +133,8 @@ namespace DAL.Org
                 cmd.Parameters.AddWithValue("@Width", obj.Width);
                 cmd.Parameters.AddWithValue("@Weight_net", obj.Weight_net);
                 cmd.Parameters.AddWithValue("@Weight_gross", obj.Weight_gross);
-                cmd.Parameters.AddWithValue("@Brand", obj.Brand);
-                cmd.Parameters.AddWithValue("@Category3", obj.Category3);
-                cmd.Parameters.AddWithValue("@Category2", obj.Category2);
-                cmd.Parameters.AddWithValue("@Category1", obj.Category1);
+                cmd.Parameters.AddWithValue("@Brand_id", obj.Brand_id);
+                cmd.Parameters.AddWithValue("@Category_id", obj.Category_id);
                 cmd.Parameters.AddWithValue("@Size", obj.Size);
                 cmd.Parameters.AddWithValue("@Color", obj.Color);
                 cmd.Parameters.AddWithValue("@Cest", obj.Cest);
@@ -171,10 +165,8 @@ namespace DAL.Org
                     Width = @Width,
                     Weight_net = @Weight_net,
                     Weight_gross = @Weight_gross,
-                    Brand = @Brand,
-                    Category3 = @Category3,
-                    Category2 = @Category2,
-                    Category1 = @Category1,
+                    Brand_id = @Brand_id,
+                    Category_id = @Category_id,
                     Size = @Size,
                     Color = @Color,
                     Cest = @Cest,
@@ -199,10 +191,8 @@ namespace DAL.Org
                 cmd.Parameters.AddWithValue("@Width", obj.Width);
                 cmd.Parameters.AddWithValue("@Weight_net", obj.Weight_net);
                 cmd.Parameters.AddWithValue("@Weight_gross", obj.Weight_gross);
-                cmd.Parameters.AddWithValue("@Brand", obj.Brand);
-                cmd.Parameters.AddWithValue("@Category3", obj.Category3);
-                cmd.Parameters.AddWithValue("@Category2", obj.Category2);
-                cmd.Parameters.AddWithValue("@Category1", obj.Category1);
+                cmd.Parameters.AddWithValue("@Brand_id", obj.Brand_id);
+                cmd.Parameters.AddWithValue("@Category_id", obj.Category_id);
                 cmd.Parameters.AddWithValue("@Size", obj.Size);
                 cmd.Parameters.AddWithValue("@Color", obj.Color);
                 cmd.Parameters.AddWithValue("@Cest", obj.Cest);
