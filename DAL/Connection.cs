@@ -18,7 +18,7 @@ namespace DAL
             User Id=postgres;
             Password=123;
             Database=market_flow;
-            CommandTimeout=5000
+            CommandTimeout=15000
             ");
         }
 
